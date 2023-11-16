@@ -6,7 +6,5 @@ services:
       - '../src/Import/'
       - '../src/Types/'
       - '../src/NanoEntityCsvImporterBundle.php'
-      -
-  Nano\EntityCsvImporterBundle\Service\CsvEntityImporter\:
-    public: true
+    autowire: true
     autoconfigure: true
