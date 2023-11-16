@@ -5,7 +5,6 @@ namespace Nano\EntityCsvImporterBundle\Service;
 use Doctrine\ORM\EntityManagerInterface;
 use League\Csv\UnavailableStream;
 use Nano\EntityCsvImporterBundle\Import\CsvImport;
-use Nano\EntityCsvImporterBundle\Import\RowImport;
 
 class CsvImporterFactory
 {

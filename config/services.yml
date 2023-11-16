@@ -1,8 +1,10 @@
 services:
-  Nano\EntityCsvImporterBundle\:
-    resource: '../src/'
-    exclude:
-      - '../src/DependencyInjection/'
-      - '../src/Import/'
-      - '../src/Types/'
-      - '../src/NanoEntityCsvImporterBundle.php'
+  Nano\EntityCsvImporterBundle\Service\CsvEntityImporter\:
+    resource: '../src/Service/ConfigSorter.php'
+    public: true
+  Nano\EntityCsvImporterBundle\Service\ConfigSorter\:
+    resource: '../src/Service/ConfigSorter.php'
+  Nano\EntityCsvImporterBundle\Service\CsvImporterFactory\:
+    resource: '../src/Service/CsvImporterFactory.php'
+  Nano\EntityCsvImporterBundle\Service\ValueProcessor\:
+    resource: '../src/Service/ValueProcessor.php'
