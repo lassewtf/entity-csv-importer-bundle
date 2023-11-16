@@ -6,3 +6,5 @@ services:
       - '../src/Import/'
       - '../src/Types/'
       - '../src/NanoEntityCsvImporterBundle.php'
+    autowire: true
+    autoconfigure: true
