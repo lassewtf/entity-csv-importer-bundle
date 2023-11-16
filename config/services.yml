@@ -1,0 +1,8 @@
+services:
+  Nano\EntityCsvImporterBundle\:
+    resource: '../src/'
+    exclude:
+      - '../src/DependencyInjection/'
+      - '../src/Import/'
+      - '../src/Types/'
+      - '../src/NanoEntityCsvImporterBundle.php'

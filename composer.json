@@ -1,0 +1,23 @@
+{
+  "type": "bundle",
+  "name": "nano/entity-csv-importer-bundle",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=8.1",
+    "ext-ctype": "*",
+    "ext-iconv": "*",
+    "doctrine/orm": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nano\\EntityCsvImporterBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nano\\EntityCsvImporterBundle\\Tests\\": "tests/"
+    }
+  }
+}
