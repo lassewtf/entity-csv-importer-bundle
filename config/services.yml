@@ -9,3 +9,4 @@ services:
 
     Nano\EntityCsvImporterBundle\Service\CsvEntityImporter:
       public: true
+      
