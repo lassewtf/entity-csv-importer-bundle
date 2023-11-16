@@ -8,5 +8,3 @@ services:
       - '../src/NanoEntityCsvImporterBundle.php'
 
     Nano\EntityCsvImporterBundle\Service\CsvEntityImporter:
-      public: true
-      
