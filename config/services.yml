@@ -7,4 +7,5 @@ services:
       - '../src/Types/'
       - '../src/NanoEntityCsvImporterBundle.php'
 
-    Nano\EntityCsvImporterBundle\Service\CsvEntityImporter:
+  Nano\EntityCsvImporterBundle\Service\CsvEntityImporter:
+    public: true
